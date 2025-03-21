@@ -1,0 +1,13 @@
+QFrame.theCustomCap {
+    background-color: red;
+}
+
+QFrame.theCustomCap>QPushButton {
+    background-color: aqua;
+    border: none;
+    padding: 0px 5px 0px 5px;
+}
+QFrame.theCustomCap>QPushButton:hover {
+    background-color: rgb(180, 255, 255);
+
+}

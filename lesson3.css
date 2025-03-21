@@ -1,0 +1,49 @@
+
+QFrame.theCustomCap {
+    background-color: var(basicColor);
+
+}
+
+QFrame.theCustomCap>QPushButton {
+    border: none;
+    padding: 0px 5px 0px 5px;
+    font-weight: bold;
+}
+
+QFrame.theCustomCap>QLabel {
+    font-weight: bold;
+}
+
+QFrame.theCustomCap>QPushButton:hover {
+    background-color: var(lightColor);
+
+}
+
+QFrame.theMainFrame {
+    background-color: var(darkenColor);
+}
+QFrame.theMainFrame>QLineEdit {
+    background-color: var(inputLineBG);
+    border: none;
+    font-size: 16pt;
+}
+
+QFrame.theMainFrame>QLabel {
+    background-color: var(lightColor);
+    border: none;
+    padding: 0px 200px 0px 200px;
+    font-size: 18pt;
+}
+QFrame.theMainFrame>QPushButton {
+    background-color: var(inputLineBG);
+    border: 1px solid var(lightColor);
+    font-size: 14pt;
+    padding: 10px;
+    
+}
+QFrame.theMainFrame>QPushButton:hover {
+    background-color: var(lightColor);
+    border: 1px solid var(inputLineBG);
+
+    
+}
