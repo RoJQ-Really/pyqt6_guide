@@ -9,7 +9,7 @@
             "name": "RunQt6App",
             "type": "debugpy",
             "request": "launch",
-            "program": "./lesson3.py",
+            "program": "./lesson5.py",
             "console": "integratedTerminal"
         }
     ]
